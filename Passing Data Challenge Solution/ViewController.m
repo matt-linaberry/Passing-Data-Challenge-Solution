@@ -24,4 +24,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // did a button click us?
+    if ([sender isKindOfClass:[UIButton class]])
+    {
+        // are we going to the DetailViewController next?
+        if ([segue.destinationViewController isKindOfClass:[DetailViewController class]])
+        {
+            DetailViewController *nextOne = segue.destinationViewController;
+            nextOne.theWords = self.textInput.text;
+        }
+    }
+}
+
 @end

@@ -14,6 +14,7 @@
 		99698ED019EACA8B00D8706D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99698ECF19EACA8B00D8706D /* Images.xcassets */; };
 		99698ED319EACA8B00D8706D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99698ED119EACA8B00D8706D /* LaunchScreen.xib */; };
 		99698EDF19EACA8B00D8706D /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99698EDE19EACA8B00D8706D /* Passing_Data_Challenge_SolutionTests.m */; };
+		99698EEA19EACB9A00D8706D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99698EE919EACB9A00D8706D /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		99698ED819EACA8B00D8706D /* Passing Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99698EDD19EACA8B00D8706D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99698EDE19EACA8B00D8706D /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		99698EE819EACB9A00D8706D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		99698EE919EACB9A00D8706D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				99698ECF19EACA8B00D8706D /* Images.xcassets */,
 				99698ED119EACA8B00D8706D /* LaunchScreen.xib */,
 				99698EC219EACA8B00D8706D /* Supporting Files */,
+				99698EE819EACB9A00D8706D /* DetailViewController.h */,
+				99698EE919EACB9A00D8706D /* DetailViewController.m */,
 			);
 			path = "Passing Data Challenge Solution";
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				99698ECB19EACA8B00D8706D /* ViewController.m in Sources */,
 				99698EC819EACA8B00D8706D /* AppDelegate.m in Sources */,
 				99698EC519EACA8B00D8706D /* main.m in Sources */,
+				99698EEA19EACB9A00D8706D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
