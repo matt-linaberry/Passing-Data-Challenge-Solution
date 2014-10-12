@@ -65,7 +65,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5PO-Rc-Oxv"/>
+                    <navigationItem key="navigationItem" id="5PO-Rc-Oxv">
+                        <barButtonItem key="backBarButtonItem" title="LMAO" id="mSj-e5-bSF"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="outputLabel" destination="PeC-qV-Z3p" id="iWq-qr-J6D"/>
                     </connections>
