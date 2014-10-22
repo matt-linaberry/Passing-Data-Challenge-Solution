@@ -11,4 +11,6 @@
 @interface DetailViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *outputLabel;
 @property (strong, nonatomic) NSString *theWords;
+@property (strong, nonatomic) IBOutlet UITextField *detailTextField;
+- (IBAction)updateButtonPress:(UIButton *)sender;
 @end
