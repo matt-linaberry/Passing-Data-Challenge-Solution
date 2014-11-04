@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol DetailViewControllerProtocol <NSObject>
+@required
+- (void) didUpdateText:(NSString *)text;
+@end
 
 @interface DetailViewController : UIViewController
+@property (weak, nonatomic) id <DetailViewControllerProtocol> delegate;
 @property (strong, nonatomic) IBOutlet UILabel *outputLabel;
 @property (strong, nonatomic) NSString *theWords;
 @property (strong, nonatomic) IBOutlet UITextField *detailTextField;

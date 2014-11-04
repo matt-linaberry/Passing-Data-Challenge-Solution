@@ -36,5 +36,7 @@
 */
 
 - (IBAction)updateButtonPress:(UIButton *)sender {
+    self.outputLabel.text = self.detailTextField.text;
+    [self.delegate didUpdateText:self.detailTextField.text];
 }
 @end

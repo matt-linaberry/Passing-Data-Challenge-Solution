@@ -34,8 +34,15 @@
         {
             DetailViewController *nextOne = segue.destinationViewController;
             nextOne.theWords = self.textInput.text;
+            nextOne.delegate = self;
         }
     }
+}
+
+# pragma mark - Protocol stuff!
+- (void) didUpdateText:(NSString *)text
+{
+    self.textInput.text = text;
 }
 
 @end
